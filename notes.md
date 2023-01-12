@@ -68,5 +68,4 @@
 - Software as a Service (SaaS)
   - O produto completo é mantido e gerenciado pelo provedor do serviço
   
-
-  
+![](cloud_types.png)
