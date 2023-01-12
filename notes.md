@@ -69,3 +69,23 @@
   - O produto completo é mantido e gerenciado pelo provedor do serviço
   
 ![](cloud_types.png)
+
+### Exemplos de Tipos de Cloud Computing
+
+- Infra as a Service
+  - Amazon EC2
+  - GCP, Azure, Rackspace, Linode, Digital Ocean
+- Platform as a Service
+  - Elastic Beanstalk (AWS)
+  - Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
+- Software as a Service
+  - Vários serviços na AWS
+  - Google Apps (Gmail), Dropbox, Zoom
+
+## Precificação da Cloud
+
+- AWS tem 3 fundamentos de precificação seguindo o modelo de *pay-as-you-go*
+- *Compute time*
+- *Storage* 
+- *Data Out*
+  
