@@ -82,10 +82,24 @@
   - Vários serviços na AWS
   - Google Apps (Gmail), Dropbox, Zoom
 
-## Precificação da Cloud
+### Precificação da Cloud
 
 - AWS tem 3 fundamentos de precificação seguindo o modelo de *pay-as-you-go*
 - *Compute time*
 - *Storage* 
 - *Data Out*
   
+### AWS Regions
+
+>Localização no mundo onde estão instalados servidores da AWS
+- Dentro de uma ==*Region*== podem existir 2 ou mais ==availability zones==, que são *datacenters* distintos com rede e alimentação de energia próprios
+- São separados fisicamente, ficando assim isolados em caso de desastres
+- São interconectados com uma rede de banda larga e latência ultra-baixa
+
+### Modelo de responsabilidade compartilhada
+
+![](responsibility_model.png)
+
+
+
+## IAM
