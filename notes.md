@@ -72,15 +72,17 @@
 
 ### Exemplos de Tipos de Cloud Computing
 
-- Infra as a Service
-  - Amazon EC2
-  - GCP, Azure, Rackspace, Linode, Digital Ocean
-- Platform as a Service
-  - Elastic Beanstalk (AWS)
-  - Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
-- Software as a Service
-  - Vários serviços na AWS
-  - Google Apps (Gmail), Dropbox, Zoom
+Infra as a Service
+: Amazon EC2
+GCP, Azure, Rackspace, Linode, Digital Ocean
+
+Platform as a Service
+: Elastic Beanstalk (AWS)
+Heroku, Google App Engine (GCP), Windows Azure (Microsoft)
+
+Software as a Service
+: Vários serviços na AWS
+Google Apps (Gmail), Dropbox, Zoom
 
 ### Precificação da Cloud
 
@@ -100,6 +102,19 @@
 
 ![](responsibility_model.png)
 
-
-
+Cliente é responsável pela segurança NA nuvem (IN the Cloud)
+AWS é responsável pela segurança DA nuvem (OF the Cloud)
 ## IAM
+
+- Identity and Access Management
+- Serviço Global
+- conta *root* não deve ser utilizada, a não ser para criar outros usuários administradores
+- usuários são pessoas dentro da organização, podem ser reunidos em grupos
+- grupos apenas contém usuários, não contém outros grupos
+- usuários não precisam pertencer á um grupo, e podem pertecer á multiplos grupos
+
+### Permissões
+
+- *usuários ou grupos* podem ser configurados em arquivos json chamados *policies*
+- As políticas (*policies*) definem as **permissões** dos usuários
+
