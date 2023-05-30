@@ -111,10 +111,37 @@ AWS é responsável pela segurança DA nuvem (OF the Cloud)
 - conta *root* não deve ser utilizada, a não ser para criar outros usuários administradores
 - usuários são pessoas dentro da organização, podem ser reunidos em grupos
 - grupos apenas contém usuários, não contém outros grupos
-- usuários não precisam pertencer á um grupo, e podem pertecer á multiplos grupos
+- usuários não precisam pertencer á um grupo, e podem pertencer á multiplos grupos
 
 ### Permissões
 
 - *usuários ou grupos* podem ser configurados em arquivos json chamados *policies*
 - As políticas (*policies*) definem as **permissões** dos usuários
+- Na AWS é aplicado o **princípio do menor privilégio**: não dar mais privilégios do que o usuário precisa
 
+### Políticas do IAM
+
+![](iam_policies.png)
+
+![](policies_structure.png)
+
+- <span style="color:orange"> *Sid: identificador*</span>
+- <span style="color:gold"> *Effect (Allow/Deny) Permitir ou Proibir*</span>
+- <span style="color:#0D78AA"> *Principal  conta/usuário/regra a qual a política será aplicada*</span>
+- <span style="color:purple"> *Action: lista de ações que a política permite ou proíbe*</span>
+- <span style="color:green"> *Resource: lista de recursos as quais as ações serão aplicadas*</span>
+- Condition: condições para essa política ser aplicada
+
+### IAM - Política de Senhas
+
+#### MFA
+
+- Usuários tem acesso a sua conta e podem mudar configurações ou deletar recursos em sua conta AWS
+- *Voce quer proteger sua conta Root e usuários IAM*
+- MFA = senha que você sabe + dispositivo seguro que você possui
+- Maior benefício do MFA: se uma senha é roubada ou hackeada, a conta não é comprometida
+
+#### Opções de MFA
+
+![](mfa_devices1.png)
+![](mfa_devices2.png)
