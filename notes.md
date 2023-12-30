@@ -142,6 +142,5 @@ AWS é responsável pela segurança DA nuvem (OF the Cloud)
 - Maior benefício do MFA: se uma senha é roubada ou hackeada, a conta não é comprometida
 
 #### Opções de MFA
-
 ![](mfa_devices1.png)
 ![](mfa_devices2.png)
